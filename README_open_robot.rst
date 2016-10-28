@@ -45,7 +45,7 @@ We recommend using `wstool <http://wiki.ros.org/wstool>`_ and `rosdep
     mkdir catkin_ws
     cd catkin_ws
     wstool init src
-    
+
     # Clone cartographer_ros
     cd src
     git clone https://github.com/open-robot/cartographer_ros.git
@@ -68,11 +68,11 @@ How to run
 
   .. code-block:: bash
 
-    # Start open-robot 
+    # Start open-robot
     roslaunch robot_bringup demo_start.launch
-    
+ 
     # Start Cartographer_ros
-    roslaunch cartographer_ros demo_open_robot.launch 
-    
+    roslaunch cartographer_ros demo_open_robot.launch
+ 
     # Start rviz in a remote computer to watch the building map
     About how to run ROS across multiple machines: http://wiki.ros.org/ROS/Tutorials/MultipleMachines
